@@ -1,6 +1,17 @@
 #summary {
     color: black;
 }
+.social-media-icon a img
+{
+  width: 55px !important;
+  height: 55px !important;
+  opacity: 0.5
+}
+
+.social-media-icon a img:hover
+{
+  opacity: 0.9;
+}
 
 .floating-animate {
   animation: bounceLimit 4s linear infinite;
